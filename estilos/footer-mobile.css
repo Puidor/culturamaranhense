@@ -9,6 +9,10 @@
     margin-top: 1rem;
   }
 
+  .footer-menu ul li {
+    margin-top: 1.5rem;
+  }
+
   .footer-social {
     justify-content: center;
     margin-top: 5rem;

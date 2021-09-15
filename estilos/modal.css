@@ -25,6 +25,7 @@
 .modal-close {
   width: 100%;
   padding: 2rem;
+  padding-right: 8rem;
 
   cursor: pointer;
 

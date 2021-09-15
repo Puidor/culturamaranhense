@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 1180px) {
   /*Header =============================== */
   header {
     padding: 5rem 3rem;
@@ -21,14 +21,19 @@
   }
 
   /*Section 01 (Pontos Turisticos) =============================== */
+  .all-pontos-turisticos-cards > a {
+    width: 100%;
+    margin: auto;
+  }
   .pontos-turisticos {
-    margin-top: 10rem;
+    margin: auto;
     padding: 0;
   }
 
   .title-turisticos {
-    width: 90%;
+    width: 100%;
     margin: auto;
+    margin-top: 10rem;
   }
 
   .title-turisticos > h1 {
