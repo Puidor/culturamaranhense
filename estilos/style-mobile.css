@@ -1,0 +1,59 @@
+@media (max-width: 767px) {
+  /*Header =============================== */
+  header {
+    padding: 5rem 3rem;
+  }
+
+  .toggle-button {
+    cursor: pointer;
+    display: initial;
+  }
+
+  .header-menu {
+    width: 100%;
+    display: none;
+    padding-bottom: 3rem;
+  }
+
+  header .header-title {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  /*Section 01 (Pontos Turisticos) =============================== */
+  .pontos-turisticos {
+    margin-top: 10rem;
+    padding: 0;
+  }
+
+  .title-turisticos {
+    width: 90%;
+    margin: auto;
+  }
+
+  .title-turisticos > h1 {
+    font-size: 2.3rem;
+  }
+
+  .pontos-turisticos-cards {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*Section 02 (Cultura Maranhense) =============================== */
+
+  .cultura-maranhense-cards {
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+  }
+
+  /*Section 03 (Formulário Feedback) =============================== */
+  .formulario-feedback {
+    margin-top: 10rem;
+  }
+
+  .formulario-feedback > form {
+    width: 90%;
+  }
+}

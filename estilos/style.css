@@ -14,6 +14,12 @@ body {
   font-size: 1.5rem;
 }
 
+a {
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+
 /*Header =============================== */
 header {
   background-image: url(/imagens/centro-historico-paint.png);
@@ -52,6 +58,20 @@ header {
 
 .header-top ul li:hover {
   opacity: 0.7;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+
+  width: initial;
+
+  padding: 0;
+  margin: 0;
+}
+
+.toggle-button {
+  display: none;
 }
 
 header .header-title {
@@ -175,7 +195,7 @@ header .header-title:hover {
   margin-bottom: 1.5rem;
 }
 
-.cultura-maranhense-cards > button {
+.cultura-maranhense-cards > a > button {
   border: 0;
   background-color: #e76f51;
   color: white;
@@ -185,6 +205,61 @@ header .header-title:hover {
   transition: opacity 0.25s;
 }
 
-.cultura-maranhense-cards > button:hover {
+.cultura-maranhense-cards > a > button:hover {
+  opacity: 0.7;
+}
+
+/*Section 03 (Formulário Feedback) =============================== */
+.formulario-feedback {
+  margin-top: 5rem;
+}
+.formulario-feedback > h1 {
+  color: #2e384d;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.formulario-feedback > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65rem;
+  margin: 5rem auto;
+}
+
+.formulario-feedback > form > input,
+.formulario-feedback > form > textarea {
+  width: 100%;
+  margin-bottom: 2rem;
+  border: 1px solid #5c8599;
+  border-radius: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: #2e384d;
+}
+
+.formulario-feedback > form > input {
+  height: 4rem;
+  padding: 0 1.6rem;
+}
+
+.formulario-feedback > form > textarea {
+  resize: vertical;
+  padding: 1.6rem;
+  line-height: 2.8rem;
+  color: #2e384d;
+}
+
+.formulario-feedback > form > button {
+  border: 0;
+  background-color: #e76f51;
+  color: white;
+  padding: 1rem 2.5rem 1.2rem 2.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: opacity 0.25s;
+}
+
+.formulario-feedback > form > button:hover {
   opacity: 0.7;
 }

@@ -1,0 +1,17 @@
+@media (max-width: 767px) {
+  footer {
+    flex-direction: column;
+    padding: 5rem 5rem;
+  }
+
+  .footer-menu ul {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .footer-social {
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+  }
+}
