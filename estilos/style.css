@@ -178,7 +178,8 @@ header .header-title:hover {
 }
 
 .cultura-maranhense-cards > img {
-  height: 100%;
+  width: 30%;
+  /* height: 100%; */
   border-radius: 50%;
 }
 
