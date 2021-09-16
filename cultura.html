@@ -15,8 +15,10 @@
 
     <!-- Meu Estilo CSS ------------------------------------------>
     <link rel="stylesheet" href="./estilos/cultura.css" />
+    <link rel="stylesheet" href="./estilos/cultura-mobile.css" />
     <link rel="stylesheet" href="./estilos/modal.css" />
     <link rel="stylesheet" href="./estilos/footer.css" />
+    <link rel="stylesheet" href="./estilos/footer-mobile.css" />
 
     <!-- Minhas Fontes ------------------------------------------>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,11 +27,16 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Meu Script -->
+    <script src="./scripts/script.js" defer></script>
   </head>
   <body>
     <!-- HEADER (Cabeçalho) ========================================== -->
     <header>
       <div class="header-top">
+        <div class="toggle-button" onclick="Modal.open()">
+          <img src="./imagens/menu-white-48dp.svg" alt="Menu Mobile" />
+        </div>
         <div class="header-menu">
           <ul>
             <li><a href="./index.html">Home</a></li>
@@ -305,5 +312,20 @@
         <span>© 2021 Cultura Maranhense. All rights reserved.</span>
       </div>
     </footer>
+
+    <!--##########################-->
+    <!--######### Modal #########-->
+    <!--##########################-->
+    <div class="modal">
+      <div class="modal-close" onclick="Modal.close()">
+        <i class="fas fa-times fa-3x"></i>
+      </div>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./pontos-turisticos.html">Pontos Turísticos</a></li>
+        <li><a href="./cultura.html">Cultura</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+      </ul>
+    </div>
   </body>
 </html>

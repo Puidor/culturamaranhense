@@ -1,0 +1,37 @@
+@media (max-width: 1180px) {
+  /*Header =============================== */
+  header {
+    padding: 5rem 3rem;
+  }
+
+  .toggle-button {
+    cursor: pointer;
+    display: initial;
+  }
+
+  .header-menu {
+    width: 100%;
+    display: none;
+    padding-bottom: 3rem;
+  }
+
+  header .header-title {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  /*================================================= */
+  /*Pontos Turisticos =============================== */
+  /*================================================= */
+  .pontos-turisticos {
+    width: 100vw;
+  }
+  .ponto-turistico {
+    flex-direction: column;
+  }
+  .ponto-turistico > img {
+    width: 100%;
+  }
+  .descr-turismo {
+    width: 95%;
+  }
+}
