@@ -170,11 +170,10 @@ header .header-title:hover {
 .cultura-maranhense-cards {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   flex-direction: column;
   width: 40rem;
-  height: 40rem;
-  margin-top: 5rem;
+  height: 30rem;
 }
 
 .cultura-maranhense-cards > img {
